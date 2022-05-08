@@ -1,5 +1,5 @@
 class Zine < Formula
-  desc "A simple and opinionated tool to build your own magazine"
+  desc "Simple and opinionated tool to build your own magazine"
   homepage "https://github.com/zineland/zine"
   url "https://github.com/zineland/zine/releases/download/v0.4.0/zine-macos-amd64"
   version "0.4.0"
