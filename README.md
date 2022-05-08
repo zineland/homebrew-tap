@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install zineland/tap/<formula>`
+`brew install zineland/tap/zine`
 
-Or `brew tap zineland/tap` and then `brew install <formula>`.
+Or `brew tap zineland/tap` and then `brew install zine`.
 
 ## Documentation
 
