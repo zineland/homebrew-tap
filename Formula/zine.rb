@@ -5,7 +5,7 @@ class Zine < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/zineland/zine/releases/download/v0.4.1/zine-x86_64-apple-darwin.tar.gz"
-    sha256 "216724d4a50ea2033cfa980311ee00cb4f881246639a2a70c8881688cfe9516b"
+    sha256 "e5844441768bd37bfdcf686f3d351574bc4cfe6176477f823f2a7dbaae2abc80"
   end
 
   if OS.linux? && Hardware::CPU.intel?
