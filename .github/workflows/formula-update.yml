@@ -16,6 +16,7 @@ jobs:
       -
         name: Generate new formula
         run: |
+          pip install -r requirements.txt
           python generate.py ${{github.event.client_payload.version}}
       - 
         uses: stefanzweifel/git-auto-commit-action@v4
