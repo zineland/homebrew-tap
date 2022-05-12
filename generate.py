@@ -40,11 +40,10 @@ def download_and_check_sha256(url: str) -> str:
 
 def get_download_urls(version: str) -> dict:
     return {
-        "mac":
-            DOWNLOAD_URL.format(
-                version=version, artifact="zine-x86_64-apple-darwin.tar.gz"),
+        "mac": DOWNLOAD_URL.format(
+            version=version, artifact="zine-x86_64-apple-darwin.tar.gz"),
         "linux": DOWNLOAD_URL.format(
-                version=version, artifact="zine-x86_64-unknown-linux-gnu.tar.gz"),
+            version=version, artifact="zine-x86_64-unknown-linux-gnu.tar.gz"),
     }
 
 
