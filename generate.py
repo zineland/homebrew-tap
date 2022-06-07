@@ -54,9 +54,8 @@ if __name__ == "__main__":
         sys.exit()
 
     print("Start generate latest formula file...")
-    version = sys.argv[1]
+    version = sys.argv[1].strip('v')
     print('version: ', version)
-    version.strip('v')
 
     shasums = {}
     for os, url in get_download_urls(version).items():
