@@ -36,6 +36,7 @@ def download_and_check_sha256(url: str) -> str:
         return sha256
     else:
         print(f"download faild: {r.text}")
+        raise Exception("Download failed: ", url)
 
 
 def get_download_urls(version: str) -> dict:
@@ -54,6 +55,9 @@ if __name__ == "__main__":
 
     print("Start generate latest formula file...")
     version = sys.argv[1]
+    print('version: ', version)
+    version.strip('v')
+
     shasums = {}
     for os, url in get_download_urls(version).items():
         sha256 = download_and_check_sha256(url)
