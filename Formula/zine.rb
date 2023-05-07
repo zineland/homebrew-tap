@@ -1,16 +1,16 @@
 class Zine < Formula
   desc "Simple and opinionated tool to build your own magazine"
   homepage "https://github.com/zineland/zine"
-  version "0.14.0"
+  version "0.15.0"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/zineland/zine/releases/download/v0.14.0/zine-x86_64-apple-darwin.tar.gz"
-    sha256 "5c685331ede3bbf73e235f63c8e2ab3cd17d446b9235bcfb1d62cfdbf53dd7b0"
+    url "https://github.com/zineland/zine/releases/download/v0.15.0/zine-x86_64-apple-darwin.tar.gz"
+    sha256 "2be91a53a30e5c0137d8b00c44206a675611f3b61b58d52af0d14dac4f11a81b"
   end
 
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/zineland/zine/releases/download/v0.14.0/zine-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "ff5fea04c257db24ff6512749e50b6896ff2037180f6c2959793c3cd52e56a24"
+    url "https://github.com/zineland/zine/releases/download/v0.15.0/zine-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "344274373b2813611fd66bdc7b1986dbd1ffcc0072b795da664ee5ade07d82e1"
   end
 
   def install
