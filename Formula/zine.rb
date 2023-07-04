@@ -5,12 +5,12 @@ class Zine < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/zineland/zine/releases/download/v0.16.0/zine-x86_64-apple-darwin.tar.gz"
-    sha256 "9e3000fe5f6801598df5d18bda64d009983251ce3e6fbe29424c3b8fb0b45286"
+    sha256 "fa92027d799d3e48cf05b1949794f5634f9659a0e9f2e8c8cb8479f4af88bc8c"
   end
 
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/zineland/zine/releases/download/v0.16.0/zine-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "86414adbb46a6867014078a63f5bd6331f86d073a94998f352d2e82d742dd963"
+    sha256 "e404ace55ff2e1ea6de643efcdd026f1c2282c84bee02e60e38ca35c608c6115"
   end
 
   def install
